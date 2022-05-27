@@ -3,6 +3,7 @@ import getData, { addLikes, likeCount } from './modules/fetchApis.js';
 import createCardItem from './modules/displayItems.js';
 import displayTvShownumbers from './modules/itemCounter.js';
 import getMovieTitle from './modules/getMovies.js';
+import enableComments from './modules/commentPop.js';
 
 document.addEventListener('click', async (e) => {
   if (e.target.matches('.heart')) {
@@ -48,4 +49,5 @@ const renderItems = async (showCount = 16) => {
 
 renderItems().then(() => {
   getMovieTitle();
+  enableComments();
 });
