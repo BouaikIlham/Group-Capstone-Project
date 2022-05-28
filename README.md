@@ -55,8 +55,8 @@ cd KanbanBoard
 - Twitter: [@ToussaintSaraz1](https://twitter.com/ToussaintSaraz1)
 #  🤵 Author 2
 - GitHub: [BouaikIlham](https://github.com/Bouaikilham)
-- Twitter: []()
-- LinkedIn: []()
+- Twitter: [](https://twitter.com/home?lang=en)
+- LinkedIn: [](https://www.linkedin.com/feed/)
   
 ##  Give a ⭐ to show some 🤟
 
