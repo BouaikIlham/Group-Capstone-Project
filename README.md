@@ -22,13 +22,9 @@ To run the above project you need to meet the following requirements:
 - Have [Git](https://git-scm.com/) installed
 - Node installed
 
-## Deployment
-
-[Live Demo]()
-
 ## Documentation 
 
-[Video link]()
+[Video link](https://drive.google.com/file/d/1pM362SpFZWo3NLE3K1kejYNdExx12B5L/view?usp=sharing)
 
 ## Run
 > To run the above project :
