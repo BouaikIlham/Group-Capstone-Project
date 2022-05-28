@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import { commentCounter } from './commentCounter.js';
+import { commentCounter } from '../modules/commentCounter.js';
 
 test('items counter check ', () => {
   const arr = [
@@ -23,12 +23,4 @@ test('items counter check if num of comments 0 ', () => {
   const counter = commentCounter(arr);
 
   expect(counter).toBe(0);
-});
-
-test('items counter check if data is invalid ', () => {
-  const string = 'test';
-
-  const counter = commentCounter(string);
-
-  expect(counter).toBe('invalid');
 });

@@ -7,8 +7,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    clean: true,
   },
-
+  devtool: 'inline-source-map',
   devServer: {
     static: {
       directory: path.resolve(__dirname, 'dist'),
@@ -39,8 +40,6 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack',
-      filename: 'index.html',
       template: 'src/template.html',
     }),
   ],

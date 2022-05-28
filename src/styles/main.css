@@ -138,7 +138,7 @@ header {
   transition: background-position 1s steps(28);
   transition-duration: 0s;
   margin-bottom: 0;
-  margin-top: -44px;
+  margin-top: 0;
 }
 
 .heart.is-active {

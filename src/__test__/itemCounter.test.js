@@ -1,4 +1,8 @@
-import { itemsCounter } from './itemCounter.js';
+/**
+ * @jest-environment jsdom
+ */
+
+import { itemsCounter } from '../modules/itemCounter.js';
 
 test('items counter check ', () => {
   const arr = [
@@ -17,12 +21,4 @@ test('items counter check if the there no data ', () => {
   const counter = itemsCounter(arr);
 
   expect(counter).toBe(0);
-});
-
-test('items counter check if not an invalid data ', () => {
-  const string = 'test';
-
-  const counter = itemsCounter(string);
-
-  expect(counter).toBe('invalid');
 });
